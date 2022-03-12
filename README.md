@@ -1,8 +1,11 @@
 # O PROJEKCIE
 
-Testowy projekt biblioteki zbudowanej w TypeScript.
+Testowy projekt biblioteki zbudowanej w [TypeScript](typescriptlang.org).
 
-Zawiera kilka przykładowych funkcji wraz z testami jednostkowymi napisanymi w Jest.
+Zawiera kilka przykładowych funkcji wraz z testami jednostkowymi napisanymi w [Jest](https://jestjs.io/).
+
+<img src="https://cdn.iconscout.com/icon/free/png-256/typescript-1174965.png" alt="Kitten" title="TS" width="100" /><img src="https://cdn.iconscout.com/icon/free/png-256/jest-3628860-3030000.png" alt="Kitten" title="TS" width="100" />
+
 
 ## Użycie
 
