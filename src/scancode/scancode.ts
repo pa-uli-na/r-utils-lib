@@ -1,5 +1,5 @@
 /** Czy dany ciąg jest liczbą? */
-export const isNumeric = (char: string | number): boolean =>
+export const isInteger = (char: string | number): boolean =>
   /^\d+$/.test(String(char));
 
 /** Czy po dodaniu kolejnego znaku, wartość nadal jest mniejsza niż MAX? */
@@ -23,6 +23,16 @@ export const isMoreThanMinValue = (
   const newValueNumber = Number(newValueText);
   return newValueNumber >= minValue;
 };
+
+/** Czy po dodaniu nowego znaku wartość mieści się w zakresie MIN/MAX? */
+export const isInRange = (
+  key: string,
+  currentValueText: string,
+  minValue: number,
+  maxValue: number
+) =>
+  isMoreThanMinValue(key, currentValueText, minValue) &&
+  isLessThanMaxValue(key, currentValueText, maxValue);
 
 /** Czy po dodaniu nowego znaku wartość nadal jest krótsza niż MAX_LENGTH? */
 export const isLessThanMaxLength = (
