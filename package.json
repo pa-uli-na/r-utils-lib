@@ -1,6 +1,6 @@
 {
-  "name": "r-utilis-lib",
-  "version": "1.0.0",
+  "name": "r-utils",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

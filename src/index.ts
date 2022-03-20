@@ -1,3 +1,4 @@
-export * from "./article/article";
-export * from "./scancode/scancode";
-export * from "./localisation/localisation";
+import * as Article from "./article/article";
+import * as ScanCode from "./scancode/scancode";
+import * as Localisation from "./localisation/localisation";
+export { Article, Localisation, ScanCode };
